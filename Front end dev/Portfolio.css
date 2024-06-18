@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto; /* Center horizontally */
+    max-width: 1200px; /* Set maximum width */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.intro {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #deeae8; /* Change color */
+}
+
+.intro-text p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00b894;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.intro-image img {
+    width: 100%; /* Adjust to fit container */
+    max-width: 450px; /* Increased maximum width */
+    border-radius: 10px;
+}
+
+.about {
+    padding: 50px;
+    background-color: #1b1b1b;
+}
+
+.about-content {
+    text-align: center; /* Center align text */
+}
+
+.about-text {
+    color: #ffffff; /* Text color */
+    max-width: 800px; /* Limit maximum width for text */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 0 20px; /* Add padding for better readability */
+}
+
+.about-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.services {
+    padding: 50px;
+}
+
+.services-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 calc(33% - 40px);
+    box-sizing: border-box;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 16px;
+}
+
+.name-highlight {
+    font-family: 'Arial', sans-serif; /* Change font */
+    color: #00b894;
+    font-size: 40px; /* Change size */
+}
+
+.name-high {
+    font-family: 'Arial', sans-serif; /* Change font */
+    color: #00b894;
+    font-size: 80px; /* Change size */
+}
+
+.word-high {
+    font-family: 'Arial', sans-serif; /* Change font */
+    color: #4ab57a;
+    font-size: 40px; /* Change size */
+}
